@@ -8,6 +8,6 @@ const Lau = {
                    Henry Bootcamp: "Full Stack Developer",
                    IBEC: "Back End Developer",
                }                      },
- challenge: "First personal portolio"
+  challenge: "First personal portolio"
 }
 ```
