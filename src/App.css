@@ -17,7 +17,7 @@
   font-weight: 400;
 }
 
-/* #Default CSS */
+/* #Default stylesheet */
 * {
   margin: 0;
   padding: 0;
@@ -33,7 +33,7 @@ html {
 body{
   font-weight: 400;
   overflow-x: hidden;
-  position: relative;
+  position: absolute;
   background-color: #121212 !important;
   color: #fff !important;
   font-family: 'Centra', sans-serif !important;
@@ -48,177 +48,6 @@ h1, h2, h3, h4, h5, h6 {
 p.danger {
   color: red;
 }
-
-img {
-  width: 100px;
-  position: absolute;
-  left: 5rem;
-}
-
-.btn {
-  width: 13rem;
-  height: 4rem;
-  right: 5rem;
-  top: 11px;
-}
-
-.btn:hover {
-  color: #121212;
-  background-color: #fff;
-}
-
-.buttons {
-  position: relative;
-  right: 18rem;
-  top: 2.2rem;
-}
-
-
-nav.navbar {
-  padding: 15px 0;
-  position: absolute; /*always visible */
-  width: 100%;
-  transition: 0.32 ease-in-out; /*to animation*/
-}
-
-nav.navbar.scrolled {
-  padding: 0px 0;
-  background-color: #121212;
-}
-
-nav.navbar a.navbar-brand {
-  width: 9%;
-}
-
-nav.navbar .navbar-nav .nav-link.navbar-link {
-  color: #fff !important;
-  padding: 25px;
-  font-size: 20px;
-}
-
-
-
-
-a.active.nav-link {
-  color: #62a5d1;
-  letter-spacing: 0.2rem;
-  padding: 25px;
-  font-size: 20px;
-}
-
-.social-icon a {
-  width: 20rem;
-  right: 5rem;
-  top: 11px;
-  position: relative;
-  background: rgba(0, 0, 0, 0.1);
-  border-radius: 50%;
-  align-items: center;
-  justify-content: center;
-  border: 2px solid rgba(255, 255, 255, 0.5);
-  position: relative;
-  text-decoration: none;
-  color: #fff;
-  font-family: 'Centra', sans-serif !important;
-  font-size: 20px;
-}
-
-.social-icon a:hover::before {
-  color: #121212;
-  background-color: #fff
-}
-
-/* .social-icon img {
-	width: 40%;
-	transition: 0.3s ease-in-out;
-  width: 1rem;
-  right: 15px;
-} */
-/* .social-icon a:hover img {
-	filter: brightness(0) saturate(100%) invert(0%) sepia(7%) saturate(98%) hue-rotate(346deg) brightness(95%) contrast(86%);
-} */
-/* 
-.img-social {
-  right: 15px;
-} */
-
-span.navbar-text {
-  display: flex;
-  position: absolute;
-  left: 90rem;
-  bottom: 0.5rem;
-}
-
-.navbar-text button {
-  font-weight: 600;
-  color: #fff;
-  border: 1px solid #fff;
-  border-radius: 35px;
-  font-size: 16px;
-  position: relative;
-  background-color: transparent;
-  transition: 0.3 ease-in-out;
-}
-
-.navbar-text button::before {
-  content: "";
-  width: 0%;
-  height: 80%;
-  position: absolute;
-  background-color: #fff;
-  border-radius: 35px;
-  left: 0;
-  top: 0;
-  z-index: -1;
-  transition: 0.3s ease-in-out;
-}
-
-nav.navbar .navbar-toggler:active,
-nav.navbar .navbar-toggler:focus {
-  outline: none;
-  box-shadow: none;
-  color: red
-}
-
-nav.navbar .navbar-toggler-icon {
-  /*when menu has minimized*/
-  width: 25px;
-  height: 1px;
-  position: relative;
-  border-bottom: 1px solid #fff;
-  transition: all 300ms linear;
-  left: 13rem;
-}
-
-nav.navbar .navbar-toggler-icon::after,
-nav.navbar .navbar-toggler-icon:before {
-  width: 30px;
-  position: absolute;
-  height: 3px;
-  background-color: #fff;
-  content: "";
-  transition: all 300ms linear;
-}
-
-nav.navbar .navbar-toggler-icon:after {
-  top: 12px;
-}
-
-nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:after {
-  transform: rotate(45deg);
-  background-color: #fff;
-  height: 2px;
-}
-
-nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon::before{
-  transform: rotate(45deg);
-  background-color: #fff;
-  height: 2px;
-}
-
-/* ------------------------ */
-/* ------------------------ */
-/* ------------------------ */
 
 .App {
   text-align: center;
