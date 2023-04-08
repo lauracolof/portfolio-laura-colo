@@ -31,15 +31,6 @@ nav.navbar {
   transition: 0.32 ease-in-out; /*to animation*/
 }
 
-/* nav.navbar.scrolled {
-  padding: 0px 0;
-  background-color: #121212;
-} */
-
-/* nav.navbar a.navbar-brand {
-  width: 100%;
-} */
-
 nav.navbar  .nav-link.navbar-link {
   color: #fff !important;
   display: flex;

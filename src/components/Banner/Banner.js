@@ -2,8 +2,8 @@ import './banner.css';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import { ArrowRightCircle } from 'react-bootstrap-icons';
 import Typewriter from 'typewriter-effect';
+import astronaut from '../../assets/img/astronaut.svg'
 
 
 
@@ -14,9 +14,8 @@ export const Banner = () => {
         <Row className='align-items-center'>
           <Col xs={12} md={6} sl={7}>
             <span className='tagline'>Welcome to my porfolio</span>
-            <h1>{
-              `Hi! My name is Laura and I'm`
-            }
+            <h1>
+              My name is Laura and I'm a
               {<br />}
               <div className="type-text ">
                 <Typewriter
@@ -29,11 +28,17 @@ export const Banner = () => {
                     loop: true,
                   }} />
               </div>
+              <div className='astronaut'>
+                <img src={astronaut} alt="astronaut" />
+              </div>
             </h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, excepturi! Quisquam exercitationem similique neque laudantium reprehenderit nobis eligendi amet adipisci dolor vero vel dolorem, assumenda est quibusdam blanditiis, commodi ad!</p>
-            <button onClick={() => console.log('connect')}>Let's connect! <ArrowRightCircle size={25} />
+
+            <button onClick={() => console.log('connect')}>
+              Let's connect!
             </button>
           </Col>
+
+
 
           <Col xs={12} md={6} ls={5}>
             <img src="" alt="" />

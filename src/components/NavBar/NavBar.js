@@ -37,20 +37,44 @@ export const NavBar = () => {
 
         <Nav className="me-auto">
           <img src={logop} alt="logolc" className='logoimg' />
-          <Nav.Link href="home" className={activeLink === 'home' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateAvtiveLink('home')}>Home</Nav.Link>
-          <Nav.Link href="projects" className={activeLink === 'projects' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateAvtiveLink('projects')}>Projects</Nav.Link>
-          <Nav.Link href="about-me" className={activeLink === 'about-me' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateAvtiveLink('about-me')}>About me</Nav.Link>
+          <Nav.Link href="home"
+            className={activeLink === 'home' ? 'active navbar-link' : 'navbar-link'}
+            onClick={() => onUpdateAvtiveLink('home')}>
+            Home
+          </Nav.Link>
+          <Nav.Link href="projects"
+            className={activeLink === 'projects' ? 'active navbar-link' : 'navbar-link'}
+            onClick={() => onUpdateAvtiveLink('projects')}>
+            Projects
+          </Nav.Link>
+          <Nav.Link href="about-me"
+            className={activeLink === 'about-me' ? 'active navbar-link' : 'navbar-link'}
+            onClick={() => onUpdateAvtiveLink('about-me')}>
+            About me
+          </Nav.Link>
         </Nav>
 
         <span className='navbar-text'>
           <div className='social-icon'>
-            <a href="https://www.linkedin.com/in/lauracolof" target='_blank' rel='noreferrer' className='link-icon'><img src={navIcon} alt='linkedin' /></a>
+            <a href="https://www.linkedin.com/in/lauracolof"
+              target='_blank'
+              rel='noreferrer'
+              className='link-icon'>
+              <img src={navIcon} alt='linkedin' />
+            </a>
           </div>
           <div className='social-icon2'>
-            <a href="https://github.com/lauracolof" target='_blank' rel='noreferrer' className='github-icon'><img src={navIcon2} alt='github' /></a>
+            <a href="https://github.com/lauracolof"
+              target='_blank'
+              rel='noreferrer'
+              className='github-icon'>
+              <img src={navIcon2} alt='github' />
+            </a>
           </div>
 
-          <button onClick={() => console.log('connectME')}>Let's connect</button>
+          <button onClick={() => console.log('connectME')}>
+            Let's connect
+          </button>
         </span>
 
       </Container>
