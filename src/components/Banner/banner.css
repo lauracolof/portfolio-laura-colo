@@ -1,7 +1,7 @@
 .banner {
   margin-top: 0;
   padding: 200px;
-  background-image: url('../../assets/img/background.jpg');
+  background-image: url('../../assets/img/bg-night.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -38,13 +38,13 @@
   align-items: center;
 }
 
+
 .banner button {
-  color: #fff;
+  color: linear-gradient(90.21deg, rgba(170, 54, 124, 0.5) -5.91%, rgba(74, 47, 189, 0.5) 111.58%);
   font-weight: 700;
   font-size: 20px;
-  margin-top: 60px;
+  margin-top: 30px;
   letter-spacing: 0.8px;
-  display: flex;
   align-items: center;
 }
 
@@ -53,6 +53,7 @@
   margin-left: 10px;
   transition: 0.3s ease-in-out;
   line-height: 1;
+  
 }
 
 .banner button:hover svg {
