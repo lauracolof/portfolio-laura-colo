@@ -1,55 +1,33 @@
 import './aboutme.css';
 import { Container, Col, Row } from 'react-bootstrap';
-import Carousel from 'react-multi-carousel';
-import 'react-multi-carousel/lib/styles.css';
+import photo from '../../assets/img/photo.jpg'
 
 export const AboutMe = () => {
-  const responsive = {
-    superLargeDesktop: {
-      breakpoint: { max: 4000, min: 3000 },
-      items: 5
-    },
-    desktop: {
-      breakpoint: { max: 3000, min: 1024 },
-      items: 3
-    },
-    tablet: {
-      breakpoint: { max: 1024, min: 464 },
-      items: 2
-    },
-    mobile: {
-      breakpoint: { max: 464, min: 0 },
-      items: 1
-    }
-  };
 
   return (
-    <section className='about-me' id='aboutme'>
-      <Container>
-        <Row>
-          <Col>
-            <div className='aboutme-bx'>
-              <h2>
-                About me
-              </h2>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero veniam, quasi voluptate voluptatem adipisci suscipit porro perferendis delectus? Maiores delectus numquam iure deleniti facilis adipisci illo odio alias ullam vel.</p>
-              <Carousel responsive={responsive} infinite={true} className='about-slider'>
-                <div>
-                  <img src={''} alt="lauracolo" />
-                  <h5>Who I am?</h5>
-                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium impedit placeat provident consequuntur.</p>
-                  <h5>What am I looking for?</h5>
-                  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis et.</p>
-                  <h5>Studies</h5>
-                  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. <br /> Lorem ipsum dolor sit amet consectetur, adipisicing elit. <br /> Lorem ipsum dolor sit amet consectetur, adipisicing elit. <br />
-                  </p>
-                </div>
-              </Carousel>
-            </div>
-          </Col>
-        </Row>
-      </Container>
-    </section>
+    <div className='all'>
+
+      <section className='about-me' id='aboutme'>
+        <Container>
+          <Row>
+            <Col>
+              <div className='aboutme-bx'>
+                <img className='profile' src={photo} alt="lauracolo" width='300rem' />
+                <h2>
+                  About me
+                </h2>
+                <br />
+                <h5>Where do I come from?</h5>
+                <p>I became interested in the world of programming a few years ago and I've been learning by my self. Once I was able to devote more time to my studies, my passion for technology increased. Now my goal is to be a professional developer and make a change of direction in my life. I hope someday to make my mark in the industry, there is still a lot to do.</p>
+                <br />
+                <h5>Studies</h5>
+                <p>I am proud to say that I have completed my studies as a Full Stack Web Developer at Henry. During my time there, I gained a deep understanding of web development, including both the front-end and back-end aspects of it. <br />In addition to my studies at Henry, I also completed a course in Back End Development at the IBEC institute. This program provided me with valuable knowledge and skills. <br />Together, my education in Full Stack and Back End Development has equipped me with the tools and knowledge I need to create complex and sophisticated web applications. I have a deep appreciation for the importance of both front-end and back</p>
+              </div>
+            </Col>
+          </Row>
+        </Container>
+      </section>
+    </div >
 
   )
 } 

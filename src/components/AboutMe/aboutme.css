@@ -1,0 +1,32 @@
+h2 {
+  font-size: 30px;
+  color:#cd5cd1;
+} 
+h5 {
+  color: #9d8feb;
+  font-size: 22px;
+}
+
+p {
+  font-size: 17px;
+}
+
+
+.all {
+  background-color: #05050f;
+}
+.about-me {
+  font-size: 20px;
+  text-align: start;
+  margin: -8rem 5rem 0 30rem;
+}
+
+.profile {
+  border-radius: 60%;
+  position: absolute;
+  left: 6rem;
+  bottom: 3rem;
+}
+
+
+.aboutme-bx {}
