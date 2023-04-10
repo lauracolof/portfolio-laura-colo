@@ -7,20 +7,27 @@
 
 h2 {
   position: relative;
+  text-align: start;
+  left: 21.3rem;
   font-size: 30px;
   color: #cd5cd1;
 
 }
 
 h5 {
+  
+  position: relative;
+  text-align: start;
+  right: 19.4rem;
   text-align: center;
   color: #9d8feb;
   font-size: 22px;
   margin-top: 1rem;
-
 }
 
 h6 {
+  position: relative;
+  right: 16.5rem;
   font-style: italic;
   font-size: 18px;
   margin-top: .5rem;
@@ -30,15 +37,15 @@ h6 {
 .description {
   font-size: 17px;
   color: rgb(197, 194, 194);
-  text-align: center;
+  text-align: justify;
   position: absolute;
   margin-top: 1rem;
-  left: 160px;
-  right: 160px;
+  left: 322px;
+  right: 275px;
 }
 .carousel {
   position: relative;
-  top: 8rem;
+  top: 10rem;
 }
 .carousel-indicators {
   position: relative;
