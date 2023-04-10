@@ -7,7 +7,7 @@ export const AboutMe = () => {
   return (
     <div className='all'>
 
-      <section className='about-me' id='aboutme'>
+      <section className='about-me' id='about-me'>
         <Container>
           <Row>
             <Col>
