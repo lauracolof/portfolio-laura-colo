@@ -37,17 +37,17 @@ export const NavBar = () => {
 
         <Nav className="me-auto">
           <img src={logop} alt="logolc" className='logoimg' />
-          <Nav.Link href="home"
+          <Nav.Link href="#home"
             className={activeLink === 'home' ? 'active navbar-link' : 'navbar-link'}
             onClick={() => onUpdateAvtiveLink('home')}>
             Home
           </Nav.Link>
-          <Nav.Link href="about-me"
+          <Nav.Link href="#about-me"
             className={activeLink === 'about-me' ? 'active navbar-link' : 'navbar-link'}
             onClick={() => onUpdateAvtiveLink('about-me')}>
             About me
           </Nav.Link>
-          <Nav.Link href="projects"
+          <Nav.Link href="#projects"
             className={activeLink === 'projects' ? 'active navbar-link' : 'navbar-link'}
             onClick={() => onUpdateAvtiveLink('projects')}>
             Projects

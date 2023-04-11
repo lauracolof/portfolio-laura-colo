@@ -6,7 +6,7 @@ import home1 from '../../assets/img/homeong1.png'
 
 function Carrousel() {
   return (
-    <div className='general'>
+    <div className='general' id='projects'>
       <div className='text'>
         <h2>Projects</h2>
         <h5 className='buddy'>

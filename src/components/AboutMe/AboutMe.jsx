@@ -5,13 +5,13 @@ import photo from '../../assets/img/photo.jpg'
 export const AboutMe = () => {
 
   return (
-    <div className='all'>
+    <div className='all' >
 
-      <section className='about-me' id='about-me'>
-        <Container>
+      <section className='about-me' >
+        <Container id='about-me'>
           <Row>
             <Col>
-              <div className='aboutme-bx'>
+              <div className='aboutme-bx' >
                 <img className='profile' src={photo} alt="lauracolo" width='300rem' />
                 <h2 className='title'>
                   About me
