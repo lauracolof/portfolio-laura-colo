@@ -13,7 +13,7 @@ export const AboutMe = () => {
             <Col>
               <div className='aboutme-bx' >
                 <img className='profile' src={photo} alt="lauracolo" width='300rem' />
-                <h2 className='title'>
+                <h2 className='about-title'>
                   About me
                 </h2>
                 <br />

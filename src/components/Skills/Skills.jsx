@@ -8,7 +8,7 @@ import html from '../../assets/img/tech/html.svg';
 import js from '../../assets/img/tech/javascript.svg';
 import nodejs from '../../assets/img/tech/nodejs.svg';
 import postgres from '../../assets/img/tech/postgresql.svg';
-import react from '../../assets/img/tech/react.svg';
+import react from '../../assets/img/tech/react-svgrepo-com.svg';
 import redux from '../../assets/img/tech/redux.svg';
 import sequelize from '../../assets/img/tech/sequelize.svg';
 import slack from '../../assets/img/tech/slack.svg';
@@ -37,26 +37,26 @@ export const Skills = () => {
     { name: 'Github', image: github },
     { name: 'Slack', image: slack },
     { name: 'Trello', image: trello },
-    { name: 'Visual Studio Code', image: vscode },
+    { name: 'VS Code', image: vscode },
   ];
 
 
   return (
-    <div className='grid justify-items-center mt*16 pt-10 md:mt-24'>
-      <div id='skills' className='m-10'>
-        <h3 className='title'>
+    <div className='big-container'>
+      <div id='skills' className='skills-container'>
+        <h3 className='title_skills'>
           Skills
         </h3>
-        <div className='mt-8 p-5'>
-          <h4 className='front-end'>Front End technologies</h4>
+        <div className='front-container'>
+          <h4 className='front-title'>Front End technologies</h4>
         </div>
-        <div className='mt-5 mb-10 flex flex-wrap justify-center max-w-2x1 gap-4'>
+        <div className='all_front'>
           {
             frontEnd.map((x) =>
-              <div key={x.name} className='text-white grid gap-2 justify-items-center cursor-grab border rounded-lg p-3 shadow-2x1 font-bold hover:scale-110' style={{ backgroundColor: 'rgba(255, 253, 253, 0.218)' }}>
-                <img src={x.image} alt='techs' className={'h-20'} width={60} height={60} />
+              <h6 key={x.name} className='everyfront'>
+                <img src={x.image} alt='techs' className='everyimages' width={60} height={60} />
                 <h4>{x.name}</h4>
-              </div>
+              </h6>
             )
           }
         </div>
@@ -64,15 +64,15 @@ export const Skills = () => {
 
       <div className='p-5'>
         <div>
-          <h4 className='back-end'>
+          <h4 className='back-title'>
             Back End technologies
           </h4>
         </div>
-        <div className='mt-5 mb-10 flex flex-wrap justify-center max-w-2x1 gap-4'>
+        <div className='all_back'>
           {
             backEnd.map((x) =>
-              <div key={x.name} className='text-white grid gap-2 justify-items-center cursor-grab border rounded-lg p-3 shadow-2x1 font-bold hover:scale-110'>
-                <img src={x.image} alt="tech" className={'h-20'} width={60} height={60} />
+              <div key={x.name} className='every-back'>
+                <img src={x.image} alt="tech" className='everyimagesB' width={60} height={60} />
                 <h4>{x.name}</h4>
               </div>
             )
@@ -80,15 +80,15 @@ export const Skills = () => {
         </div>
       </div>
 
-      <div className='p5'>
-        <div>
+      <div>
+        <div className='tools-container'>
           <h4 className='tools'>Tools</h4>
         </div>
-        <div className='mt-5 mb-10 flex flex-wrap justify-center max-w-2x1 gap-4'>
+        <div className='all_tools'>
           {
             toolsTech.map((x) =>
-              <div key={x.name} className='text-white grid gap-2 justify-items-center cursor-grab border rounded-lg p-3 shadow-2x1 font-bold hover:scale-110'>
-                <img src={x.image} alt="tools" className={'h-20'} width={60} height={60} />
+              <div key={x.name} className='everytool'>
+                <img src={x.image} alt="tools" className='everyimagesT' width={60} height={60} />
                 <h4>{x.name}</h4>
               </div>
             )
