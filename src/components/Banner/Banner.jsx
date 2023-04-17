@@ -3,9 +3,7 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Typewriter from 'typewriter-effect';
-import astronaut from '../../assets/img/astronaut.svg'
-
-
+import astronaut from '../../assets/img/astronaut.svg';
 
 export const Banner = () => {
   return (
@@ -17,7 +15,7 @@ export const Banner = () => {
             <h1>
               My name is Laura and I'm a
               {<br />}
-              <div className="type-text ">
+              <div className="type-text">
                 <Typewriter
                   options={{
                     strings: [
@@ -33,9 +31,6 @@ export const Banner = () => {
               </div>
             </h1>
 
-            <button onClick={() => console.log('connect')}>
-              Let's connect!
-            </button>
           </Col>
 
 

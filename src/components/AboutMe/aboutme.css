@@ -3,15 +3,14 @@
   color:#cd5cd1;
   position: relative;
   text-align: start;
-  left: 0;
-
+  left: -6.9rem;
 }
 
 .who {
   color: #9d8feb;
   font-size: 22px;
   position: relative;
-  left: 0;
+  right: 6.9rem;
   text-align: start;
 }
 
@@ -19,16 +18,17 @@
   color: #9d8feb;
   font-size: 22px;
   position: relative;
-  left: 0;
-  text-align: start;
-
+  right: 6.9rem;
+  text-align: justify;
 }
 
 p {
   font-size: 17px;
   color: rgb(197, 194, 194);
   text-align: justify;
-  margin-right: 50px;
+  position: relative;
+  left: -6.9rem;
+  width: 45rem;
 }
 
 .all {
@@ -37,19 +37,22 @@ p {
   height: 100%;
 }
 .about-me {
-  margin: -8rem 5rem 0 35rem;
+  margin: -6rem 11rem -2rem 43rem;
 }
 
 .profile {
   border-radius: 60%;
   position: relative ;
-  right: 41rem;
+  right: 48.3rem;
+
+
   top: 24rem;
 }
 
 
 .aboutme-bx {
   position: relative;
-  bottom: 15rem;
+  bottom: 15.8rem;
+
 
 }

@@ -8,17 +8,16 @@
 h2 {
   position: relative;
   text-align: start;
-  left: 21.3rem;
+  left: 7.1rem;
   font-size: 30px;
   color: #cd5cd1;
 
 }
 
 h5 {
-  
   position: relative;
   text-align: start;
-  right: 19.4rem;
+  right: 35.8rem;
   text-align: center;
   color: #9d8feb;
   font-size: 22px;
@@ -27,7 +26,7 @@ h5 {
 
 h6 {
   position: relative;
-  right: 16.5rem;
+  right: 32.9rem;
   font-style: italic;
   font-size: 18px;
   margin-top: .5rem;
@@ -40,8 +39,8 @@ h6 {
   text-align: justify;
   position: absolute;
   margin-top: 1rem;
-  left: 322px;
-  right: 275px;
+  left: 9.6rem;
+  width: 34rem;
 }
 .carousel {
   position: relative;

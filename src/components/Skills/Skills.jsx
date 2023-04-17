@@ -33,7 +33,7 @@ export const Skills = () => {
   ];
 
   const toolsTech = [
-    { name: 'Node.js', image: git },
+    { name: 'GIT', image: git },
     { name: 'Github', image: github },
     { name: 'Slack', image: slack },
     { name: 'Trello', image: trello },
@@ -42,7 +42,7 @@ export const Skills = () => {
 
 
   return (
-    <div className='big-container'>
+    <div className='big-container' id='skills'>
       <div id='skills' className='skills-container'>
         <h3 className='title_skills'>
           Skills
@@ -54,7 +54,7 @@ export const Skills = () => {
           {
             frontEnd.map((x) =>
               <h6 key={x.name} className='everyfront'>
-                <img src={x.image} alt='techs' className='everyimages' width={60} height={60} />
+                <img src={x.image} alt='techs' className='everyimages' width={50} height={50} />
                 <h4>{x.name}</h4>
               </h6>
             )
@@ -72,7 +72,7 @@ export const Skills = () => {
           {
             backEnd.map((x) =>
               <div key={x.name} className='every-back'>
-                <img src={x.image} alt="tech" className='everyimagesB' width={60} height={60} />
+                <img src={x.image} alt="tech" className='everyimagesB' width={50} height={50} />
                 <h4>{x.name}</h4>
               </div>
             )
@@ -88,7 +88,7 @@ export const Skills = () => {
           {
             toolsTech.map((x) =>
               <div key={x.name} className='everytool'>
-                <img src={x.image} alt="tools" className='everyimagesT' width={60} height={60} />
+                <img src={x.image} alt="tools" className='everyimagesT' width={50} height={50} />
                 <h4>{x.name}</h4>
               </div>
             )

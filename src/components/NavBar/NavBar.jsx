@@ -37,11 +37,6 @@ export const NavBar = () => {
 
         <Nav className="me-auto">
           <img src={logop} alt="logolc" className='logoimg' />
-          <Nav.Link href="#home"
-            className={activeLink === 'home' ? 'active navbar-link' : 'navbar-link'}
-            onClick={() => onUpdateAvtiveLink('home')}>
-            Home
-          </Nav.Link>
           <Nav.Link href="#about-me"
             className={activeLink === 'about-me' ? 'active navbar-link' : 'navbar-link'}
             onClick={() => onUpdateAvtiveLink('about-me')}>
@@ -51,6 +46,11 @@ export const NavBar = () => {
             className={activeLink === 'projects' ? 'active navbar-link' : 'navbar-link'}
             onClick={() => onUpdateAvtiveLink('projects')}>
             Projects
+          </Nav.Link>
+          <Nav.Link href="#skills"
+            className={activeLink === 'skills' ? 'active navbar-link' : 'navbar-link'}
+            onClick={() => onUpdateAvtiveLink('skills')}>
+            Skills
           </Nav.Link>
         </Nav>
 
