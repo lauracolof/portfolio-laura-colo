@@ -1,6 +1,5 @@
 import './projects.css'
-import Carousel from 'react-bootstrap/Carousel';
-import landing from '../../assets/img/landingong.png'
+import rickmort from '../../assets/img/rickmort.png'
 import home from '../../assets/img/homeong.png'
 import home1 from '../../assets/img/homeong1.png'
 
@@ -10,16 +9,63 @@ const project = [
     name: 'Buddy ONG',
     image: home1,
     tech: ['React', 'Redux', 'ChakraUI', 'TypeScript', 'Node.js', 'Express', 'TypeORM', 'PostgreSQL'],
-    link: 'https://buddyong.vercel.app/'
+    link: 'https://buddyong.vercel.app',
+    description: 'Team project with which we approved Henry bootcamp  is a Web App, that allow users to view information about different animals for adoption, lost or found, and includes images and detailed descriptions of them.'
+  },
+  {
+    name: 'Rick & Morty clon',
+    image: rickmort,
+    tech: ['React', 'Bootstrap', ''],
+    link: 'https://rickandmorty-puce.vercel.app/',
+    description: 'Rick and Morty web app clone to practice React and Boostrap'
   },
   {
     name: 'Dogs App',
-    image: 'dogs',
-    tech: ['JavaScript', 'Node.js', 'Express', 'Sequelize', 'PostgreSQL', 'React', 'Redux']
+    image: home,
+    tech: ['JavaScript', 'Node.js', 'Express', 'Sequelize', 'PostgreSQL', 'React', 'Redux'],
+    link: 'https://dogs-app-delta.vercel.app/',
+    description: 'Bootcamp project, where all dog breeds are shown, with filtering, alphabetical order, temperament, among others.'
   }
-]
+];
 
 function Projects() {
+  return (
+    <div className='gral-container' >
+      <h2 className='projects'>Projects</h2>
+      <div className='card-project'>
+        {
+          project.map((x) => {
+            return (
+              <div key={x.name} className='title-proj'>
+
+                <div className='div-texts'>
+                  <a href={x.link} target='_blank' rel='noreferrer'>
+                    <h5 className='title-name'>{x.name}</h5>
+                  </a>
+                  <a href={x.link} target='_blank' rel='noreferrer' className='img-proj'>
+                  <img className='img-cont' src={x.image} alt={x.name} width={'350px'} height={'250px'} />
+                </a>
+                  <p className='descrip-proj'>{x.description}</p>
+                  <div className='tech-div'>
+                    {
+                      x.tech.map((t) => 
+                        <button key={t} className='btn-tech'>{t}</button>
+                      )
+                    }
+                  </div>
+                  <button type="button" className='link-proj'>
+                    <a href={x.link} target='_blank' rel='noreferrer'>
+                    View more
+                    </a>
+                  </button>
+                </div>
+              </div>
+            )
+          })
+        }
+      </div>
+    </div>
+  )
 
 //   return (
 //     <div className='general' id='projects'>
@@ -30,7 +76,7 @@ function Projects() {
 //         </h5>
 //         <h6>Design and development</h6>
 //         <p className='description'>
-//         This is the team project with which we approved Henry bootcamp  is a Web App, that allow users to view information about different animals for adoption, lost or found, and includes images and detailed descriptions of them. <br /> The Front End is built with React, JavaScript, Redux, ChakraUI and connects to Back End developed with Node.js, TypeScript, TypeORM and PostgreSQL.
+//         This is the  <br /> The Front End is built with React, JavaScript, Redux, ChakraUI and connects to Back End developed with Node.js, TypeScript, TypeORM and PostgreSQL.
 //         </p>
 //       </div> 
 

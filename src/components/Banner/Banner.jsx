@@ -27,7 +27,7 @@ export const Banner = () => {
                   }} />
               </div>
               <div className='astronaut'>
-                <img src={astronaut} alt="astronaut" />
+                <img src={astronaut} alt="astronaut" width={'250px'}/>
               </div>
             </h1>
 

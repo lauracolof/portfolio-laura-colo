@@ -1,8 +1,66 @@
-.general {
+.gral-container {
+  position: relative;
+  bottom: 6rem;
+}
+.projects {
+  position: relative;
+  right: 38.8rem;
+  font-size: 30px;
+  color: #cd5cd1;
+} 
+.card-project  {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: start;
+  align-items: start;
+  position: relative;
+  top: 3rem;
+}
+.title-name {
+  position: relative;
+  color: #9d8feb;
+  font-size: 22px;
+  text-align: start;
+}
+.img-cont {
+  position: relative;
+  display: block;
+  top: 2rem;
+}
+.div-texts {
+  position: relative;
+  /* align-content: start; */
+  left: 8rem;
+}
+
+.descrip-proj{
+  position: relative;
+  /* align-content: start; */
+  top: 3rem;
+  text-align: justify;
+  width: 350px;
+}
+
+
+.tech-div {
+  position: absolute;
+  top: 30rem;
+  width: 350px;
+  margin: 0 1.5rem 0 1.5rem;
+}
+.each-tech {}
+.link-proj {
+  position: absolute;
+  top: 35rem;
+  right: 4rem;
+}
+
+/* .general {
   background-color: #05050f;
   position: relative;
   padding: 0;
-  bottom: 110px;
+  bottom: 10px;
 }
 
 h2 {
@@ -153,4 +211,4 @@ img, svg {
   clip: rect(0,0,0,0)!important;
   white-space: nowrap!important;
   border: 0!important;
-}
+} */

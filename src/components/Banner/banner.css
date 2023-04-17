@@ -1,6 +1,6 @@
 .banner {
   margin-bottom: 15px;
-  height: 50rem;
+  height: 49rem;
   padding: 170px;
   background-image: url('../../assets/img/bg-night.jpg');
   background-repeat: no-repeat;
@@ -24,7 +24,7 @@
 .banner h1 {
   position: relative;
   top: 3rem;
-  right: 22.3rem;
+  right: 22.5rem;
   font-size: 3rem;
   font-weight: 700;
   letter-spacing: 0.8px;
@@ -44,8 +44,9 @@
 
 .astronaut {
   position: relative;
-  left: 45.9rem;
-  bottom: 14rem;
+  left: 47.6rem;
+  bottom: 12rem;
+  
 }
 
 .type-text {
