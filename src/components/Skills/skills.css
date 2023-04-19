@@ -1,11 +1,11 @@
 .big-container {
   position: absolute;
-  top: 125rem;
+  top: 127rem;
 }
 
 .title_skills {
   position: relative;
-  right: 30rem;
+  right: 26rem;
   top: 7rem;
   font-size: 30px;
   color: #cd5cd1;
@@ -13,19 +13,19 @@
 .front-title {
   position: relative;
   /* justify-content: center; */
-  left: 5.6rem;
+  left: 9.6rem;
   color: #9d8feb;
   font-size: 22px;
   top: 7rem;
 }
 .all_front {
   background-color: transparent;
-  margin: 0px 250px;
+  margin: 0px 175px;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   position: relative;
-  left: 5.5rem;
+  left: 9.5rem;
   top: 7.5rem;
 }
 .everyfront {
@@ -47,7 +47,7 @@
   color: #9d8feb;
   font-size: 22px;
   top: 8.5rem;
-  left: 5.5rem;
+  left: 9.5rem;
   background-color: #05050f;
 }
 .all_back {
@@ -55,10 +55,10 @@
   margin: 0px 300px;
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: space-between;
   position: relative;
   top: 8.5rem;
-  left: 5.5rem;
+  left: 9.55rem;
 }
 .every-back {
   border: 2px solid #fcfcfc;
@@ -85,17 +85,17 @@
   color: #9d8feb;
   font-size: 22px;
   top: 9rem;
-  left: 5.5rem;
+  left: 9.5rem;
 
 }
 .all_tools{
   background-color: transparent;
-  margin: 0px 250px;
+  margin: 0px 175px;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   position: relative;
-  left: 83px;
+  left: 9.5rem;
   top: 9.5rem;
 }
 .everytool{
