@@ -42,7 +42,7 @@ export const Skills = () => {
 
 
   return (
-    <div className='big-container' id='skills'>
+    <div className='big-container' id='skills' >
       <div id='skills' className='skills-container'>
         <h3 className='title_skills'>
           Skills
@@ -81,10 +81,10 @@ export const Skills = () => {
       </div>
 
       <div>
-        <div className='tools-container'>
+        <div className='tools-container' >
           <h4 className='tools-title'>Tools</h4>
         </div>
-        <div className='all_tools'>
+        <div className='all_tools' >
           {
             toolsTech.map((x) =>
               <div key={x.name} className='everytool'>

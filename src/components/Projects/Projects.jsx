@@ -43,7 +43,7 @@ function Projects() {
                     <h5 className='name-proj'>{x.name}</h5>
                   </a>
                   <a href={x.link} target='_blank' rel='noreferrer' className='img-proj'>
-                  <img className='img-cont' src={x.image} alt={x.name} width={'320px'} height={'220px'} />
+                  <img className='img-cont' src={x.image} alt={x.name} width={'320px'} height={'200px'} />
                 </a>
                   <p className='descrip-proj'>{x.description}</p>
                   <div className='tech-div'>

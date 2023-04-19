@@ -16,14 +16,14 @@
   font-size: 25px;
   position: relative;
   bottom: 1rem;
-  right: 3.5rem;
+  right: 4.55rem;
   display: inline-block;
   border-radius: 10px;
 }
 
 .banner h1 {
   position: relative;
-  top: 3rem;
+  top: 6rem;
   right: 22.5rem;
   font-size: 3rem;
   font-weight: 700;
@@ -45,7 +45,7 @@
 .astronaut {
   position: relative;
   left: 47.6rem;
-  bottom: 12rem;
+  bottom: 15rem;
   
 }
 

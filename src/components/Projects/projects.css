@@ -15,7 +15,7 @@
 
   /* border-radius: 20px; */
   width: 24rem;
-  height: 34.5rem;
+  height: 33.5rem;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
@@ -55,11 +55,11 @@
 
 .tech-div {
   position: absolute;
-  top: 24.8rem; /*modificar par aaltura de techs*/
+  top: 23rem; /*modificar par aaltura de techs*/
   display: flex;
   margin: 0rem 1rem 0rem 1rem;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: center;
   flex-wrap: wrap;
 
 }
@@ -69,13 +69,13 @@
   border-radius: 10%;
   border-color:#c67bc9f5;
   font-size: 15px;
+  position: relative;
   margin: .1rem;
   padding: .2rem;
+  
 }
 
-.each-tech {
-  line-height: 0.8;
-}
+/* .each-tech {} */
 
 .btn-viewmore {
   border-color: #cd5cd1;
@@ -83,25 +83,15 @@
   color: #cd5cd1;
   position: absolute;
   border-radius: 10px;
-  top: 30.5rem;
-  right: 4.8em;
+  top: 29rem;
+  right: 4em;
   font-size: 20px;
   width: 12rem;
   margin: .1rem;
   padding: .2rem;
-  
 }
 .btn-viewmore button :hover {
   box-shadow: 6px 6px 20px 0px rgba(208, 0, 231, 0.281);
   background-color: rgb(22, 22, 0);
   color: #cd5cd1;
-  /* position: relative;
-  border-radius: 10px;
-  top: 30.5rem;
-  right: 4.8em;
-  font-size: 20px;
-  width: 12rem;
-  margin: .1rem;
-  padding: .2rem; */
-
 }
