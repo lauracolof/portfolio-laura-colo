@@ -1,6 +1,7 @@
 import './aboutme.css';
 import { Container, Col, Row } from 'react-bootstrap';
 import photo from '../../assets/img/photo.jpg'
+import BackToTop from '../BackToTop/BackToTop';
 
 export const AboutMe = () => {
 
@@ -27,6 +28,7 @@ export const AboutMe = () => {
           </Row>
         </Container>
       </section>
+      <BackToTop/>
     </div >
 
   )

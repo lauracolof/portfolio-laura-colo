@@ -1,28 +1,9 @@
 .logoimg {
   position: relative;
-  right: 0rem;
+  left: 5.7rem;
   top: 1rem;
   width: 120px;
 }
-
-.btn {
-  width: 13rem;
-  height: 4rem;
-  right: 5rem;
-  top: 11px;
-}
-
-.btn:hover {
-  color: #121212;
-  background-color: #fff;
-}
-
-.buttons {
-  position: relative;
-  right: 12rem;
-  top: 2rem;
-}
-
 nav.navbar {
   position: absolute; /*always visible*/
   width: 100%;
@@ -36,59 +17,35 @@ nav.navbar  .nav-link.navbar-link {
   color: #fff !important;
   display: flex;
   position: relative;
-  margin: -5px;
-  padding: 45px;
-  font-size: 25px;
+  margin-left: 4rem;
+  padding: 44px;
+  font-size: 22px;
 }
 
 .me-auto {
-  width: 45rem;
+  width: 65rem;
   height: 6rem;
   display: flex;
   position: relative;
   margin: 0;
   padding: 0;
   top: -1rem;
-  bottom: 3rem;
 }
 
-/* ------- SOCIAL ------ */
+/* ------- SOCIAL ------ 
+linkdin icon*/
+
 .navbar-text .social-icon {
   position: relative;
-  right: 40rem;
+  right: 25.3rem;
   bottom: 2rem;
-  width: 0rem;
-  height: 0rem;
 }
 
-.link-icon{
-  max-width: 3px;
-}
-
+/*github icon*/
 .navbar-text .social-icon2 {
   position: relative;
-  right: 44rem;
+  right: 32.5rem;
   bottom: 2rem;
-  width: 0rem;
-  height: 0rem;
-}
-
-/* ----- CONTACT ME ---------- */
-.navbar-text button {
-  font-weight: 600;
-  color: #fff;
-  border: 1px solid #fff;
-  border-radius: 35px;
-  font-size: 16px;
-  position: relative;
-  background-color: transparent;
-  transition: 0.3 ease-in-out;
-
-  right: 35.2rem;
-  width: 12rem;
-  height: 3rem;
-  bottom: 2.5rem;
-
 }
 
 

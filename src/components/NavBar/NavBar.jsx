@@ -71,10 +71,6 @@ export const NavBar = () => {
               <img src={navIcon2} alt='github' />
             </a>
           </div>
-
-          <button onClick={() => console.log('connectME')}>
-            Let's connect
-          </button>
         </span>
 
       </Container>
