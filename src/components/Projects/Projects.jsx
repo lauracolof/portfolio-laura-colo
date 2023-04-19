@@ -10,7 +10,7 @@ const project = [
     image: home1,
     tech: ['React', 'Redux', 'ChakraUI', 'TypeScript', 'Node.js', 'Express', 'TypeORM', 'PostgreSQL'],
     link: 'https://buddyong.vercel.app',
-    description: 'Team project with which we approved Henry bootcamp  is a Web App, that allow users to view information about different animals for adoption, lost or found, and includes images and detailed descriptions of them.'
+    description: 'Team project of Henry bootcamp. Web App that allow users to view information about dogs and cats lost, found or for adoption.'
   },
   {
     name: 'Rick & Morty clon',
@@ -30,20 +30,20 @@ const project = [
 
 function Projects() {
   return (
-    <div className='gral-container' >
+    <div className='gral-container' id='projects' >
       <h2 className='projects'>Projects</h2>
       <div className='card-project'>
         {
           project.map((x) => {
             return (
-              <div key={x.name} className='title-proj'>
+              <div key={x.name} className='each-proj'>
 
                 <div className='div-texts'>
                   <a href={x.link} target='_blank' rel='noreferrer'>
-                    <h5 className='title-name'>{x.name}</h5>
+                    <h5 className='name-proj'>{x.name}</h5>
                   </a>
                   <a href={x.link} target='_blank' rel='noreferrer' className='img-proj'>
-                  <img className='img-cont' src={x.image} alt={x.name} width={'350px'} height={'250px'} />
+                  <img className='img-cont' src={x.image} alt={x.name} width={'320px'} height={'220px'} />
                 </a>
                   <p className='descrip-proj'>{x.description}</p>
                   <div className='tech-div'>
