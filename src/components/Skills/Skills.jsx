@@ -82,7 +82,7 @@ export const Skills = () => {
 
       <div>
         <div className='tools-container'>
-          <h4 className='tools'>Tools</h4>
+          <h4 className='tools-title'>Tools</h4>
         </div>
         <div className='all_tools'>
           {

@@ -1,11 +1,11 @@
 .gral-container {
-  position: relative;
-  bottom: 7em;
+  position: absolute;
+  top: 86rem;
 }
-/*PROJECTS*/
+/*PROJECTS title*/
 .projects {
   position: relative;
-  right: 38.8rem;
+  right: 27.3rem;
   font-size: 30px;
   color: #cd5cd1;
 } 
@@ -14,14 +14,14 @@
   box-shadow: 3px 3px 20px 0px rgba(208, 0, 231, 0.281);
 
   /* border-radius: 20px; */
-  width: 25rem;
+  width: 24rem;
   height: 34.5rem;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  margin: 2rem;
+  margin: 1rem;
   position: relative;
-  left: 15px;
+  left: 105px;
 }
 .card-project  {
   display: flex;
@@ -42,7 +42,6 @@
 }
 .img-cont {
   position: relative;
-  display: block;
   top: 1rem;
 }
 .descrip-proj{
@@ -78,9 +77,9 @@
   line-height: 0.8;
 }
 
-.link-proj {
+.btn-viewmore {
   border-color: #cd5cd1;
-  box-shadow: 3px 3px 20px 0px rgba(208, 0, 231, 0.281);
+  /* box-shadow: 3px 3px 20px 0px rgba(208, 0, 231, 0.281); */
   color: #cd5cd1;
   position: absolute;
   border-radius: 10px;
@@ -90,6 +89,19 @@
   width: 12rem;
   margin: .1rem;
   padding: .2rem;
-
+  
+}
+.btn-viewmore button :hover {
+  box-shadow: 6px 6px 20px 0px rgba(208, 0, 231, 0.281);
+  background-color: rgb(22, 22, 0);
+  color: #cd5cd1;
+  /* position: relative;
+  border-radius: 10px;
+  top: 30.5rem;
+  right: 4.8em;
+  font-size: 20px;
+  width: 12rem;
+  margin: .1rem;
+  padding: .2rem; */
 
 }

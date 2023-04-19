@@ -1,94 +1,114 @@
+.big-container {
+  position: absolute;
+  top: 125rem;
+}
+
 .title_skills {
   position: relative;
-  right: 21rem;
+  right: 30rem;
   top: 7rem;
   font-size: 30px;
   color: #cd5cd1;
 }
 .front-title {
   position: relative;
+  /* justify-content: center; */
+  left: 5.6rem;
   color: #9d8feb;
   font-size: 22px;
-  top: 7.5rem;
+  top: 7rem;
 }
 .all_front {
   background-color: transparent;
-  margin: 0 300px 0 300px;
+  margin: 0px 250px;
   display: flex;
   flex-direction: row;
-  justify-content:space-evenly;
-  position:relative;
-  left: 250px;
-  top: 8rem;
-
+  justify-content: space-evenly;
+  position: relative;
+  left: 5.5rem;
+  top: 7.5rem;
 }
 .everyfront {
   background-color: rgb(253 253 253 / 45%);
   color: #05050f;
   border: 2px solid #fcfcfc;
   border-radius: 15px;
-  width: 8rem;
+  font-size: 15px;
+  width: 7rem;
   height: 7rem;
 }
 .everyimages {
   margin-top: 1rem;
+  background-color: #ffeffae3;
+  border-radius: 10px;
 }
 .back-title{
   position: relative;
   color: #9d8feb;
   font-size: 22px;
-  top: 10rem;
+  top: 8.5rem;
+  left: 5.5rem;
   background-color: #05050f;
 }
 .all_back {
   background-color: transparent;
-  margin: 0 300px 0 300px;
+  margin: 0px 300px;
   display: flex;
   flex-direction: row;
-  justify-content:space-evenly;
-  position:relative;
-  top: 10.5rem; 
+  justify-content: space-evenly;
+  position: relative;
+  top: 8.5rem;
+  left: 5.5rem;
 }
 .every-back {
   border: 2px solid #fcfcfc;
   color: #05050f;
+  font-size: 15px;
+
   border-radius: 15px;
   margin: 9px;
-  width: 9rem;
-  height: 8rem;
+  width: 7rem;
+  height: 7rem;
   background-color: rgb(253 253 253 / 45%);
 }
 .everyimagesB {
   margin-top: 1rem;
+  background-color: #ffeffae3;
+  border-radius: 10px;
 }
 .tools-container {
   background-color: #05050f;
 }
-.tools {
+.tools-title {
   background-color: #05050f;
   position: relative;
   color: #9d8feb;
   font-size: 22px;
-  top: 12rem;
+  top: 9rem;
+  left: 5.5rem;
+
 }
 .all_tools{
   background-color: transparent;
-  margin: 0 300px 0 300px;
+  margin: 0px 250px;
   display: flex;
   flex-direction: row;
-  justify-content:space-evenly;
-  position:relative;
-  /* left: 250px; */
-  top: 13rem;
+  justify-content: space-evenly;
+  position: relative;
+  left: 83px;
+  top: 9.5rem;
 }
 .everytool{
   background-color: rgb(253 253 253 / 45%);
   color: #05050f;
+  font-size: 15px;
   border: 2px solid #fcfcfc;
   border-radius: 15px;
-  width: 8rem;
+  width: 7rem;
   height: 7rem;
 }
 .everyimagesT {
   margin-top: 1rem;
+  background-color: #ffeffae3;
+  border-radius: 10px;
 }

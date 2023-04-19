@@ -15,7 +15,7 @@ const project = [
   {
     name: 'Rick & Morty clon',
     image: rickmort,
-    tech: ['React', 'Bootstrap', ''],
+    tech: ['React', 'Bootstrap'],
     link: 'https://rickandmorty-puce.vercel.app/',
     description: 'Rick and Morty web app clone to practice React and Boostrap'
   },
@@ -53,8 +53,8 @@ function Projects() {
                       )
                     }
                   </div>
-                  <button type="button" className='link-proj'>
-                    <a href={x.link} target='_blank' rel='noreferrer'>
+                  <button type="button" className='btn-viewmore'>
+                    <a href={x.link} target='_blank' rel='noreferrer' className='a-viewmore'>
                     View more
                     </a>
                   </button>
