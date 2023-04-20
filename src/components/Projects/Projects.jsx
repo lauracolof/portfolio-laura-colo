@@ -1,13 +1,13 @@
 import './projects.css'
 import rickmort from '../../assets/img/rickmort.png'
 import home from '../../assets/img/homeong.png'
-import home1 from '../../assets/img/homeong1.png'
+import pi from '../../assets/img/pi.png'
 
 
 const project = [
   {
     name: 'Buddy ONG',
-    image: home1,
+    image: home,
     tech: ['React', 'Redux', 'ChakraUI', 'TypeScript', 'Node.js', 'Express', 'TypeORM', 'PostgreSQL'],
     link: 'https://buddyong.vercel.app',
     description: 'Team project of Henry bootcamp. Web App that allow users to view information about dogs and cats lost, found or for adoption.'
@@ -21,9 +21,9 @@ const project = [
   },
   {
     name: 'Dogs App',
-    image: home,
+    image: pi,
     tech: ['JavaScript', 'Node.js', 'Express', 'Sequelize', 'PostgreSQL', 'React', 'Redux'],
-    link: 'https://dogs-app-delta.vercel.app/',
+    link: 'https://pi-dogs-ovvb.onrender.com/',
     description: 'Bootcamp project, where all dog breeds are shown, with filtering, alphabetical order, temperament, among others.'
   }
 ];
