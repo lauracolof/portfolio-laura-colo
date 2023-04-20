@@ -5,6 +5,7 @@
   background-image: url('../../assets/img/bg-night.jpg');
   background-repeat: no-repeat;
   background-size: cover;
+  
 }
 
 .banner .tagline {
@@ -19,6 +20,8 @@
   right: 4.55rem;
   display: inline-block;
   border-radius: 10px;
+  animation: flipInX; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s; /* don't forget to set a duration! */
 }
 
 .banner h1 {
@@ -53,17 +56,3 @@
   margin-top: 50px;
 }
 
-
-/* .banner button {
-  color: #121212;
-  border-top-color: #121212;
-  font-weight: 500;
-  font-size: 26px;
-  letter-spacing: 0.8px;
-  align-items: center;
-  margin-top: 18rem;
-  margin-right: 39rem;
-  width: 13rem;
-  height: 2.5rem;
-  border-radius: 10px;
-} */

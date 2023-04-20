@@ -1,7 +1,8 @@
-import './projects.css'
-import rickmort from '../../assets/img/rickmort.png'
-import home from '../../assets/img/homeong.png'
-import pi from '../../assets/img/pi.png'
+import './projects.css';
+import rickmort from '../../assets/img/rickmort.png';
+import home from '../../assets/img/homeong.png';
+import pi from '../../assets/img/pi.png';
+import 'animate.css';
 
 
 const project = [

@@ -4,7 +4,7 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 //fonts and images
-import logop from '../../assets/img/logop.png'
+import logo from '../../assets/img/logo.png'
 import navIcon from '../../assets/img/nav-icon1.svg';
 import navIcon2 from '../../assets/img/nav-icon2.svg';
 
@@ -36,7 +36,7 @@ export const NavBar = () => {
       <Container>
 
         <Nav className="me-auto">
-          <img src={logop} alt="logolc" className='logoimg' />
+          <img src={logo} alt="logolc" className='logoimg' />
           <Nav.Link href="#about-me"
             className={activeLink === 'about-me' ? 'active navbar-link' : 'navbar-link'}
             onClick={() => onUpdateAvtiveLink('about-me')}>

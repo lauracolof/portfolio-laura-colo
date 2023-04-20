@@ -1,8 +1,9 @@
 .logoimg {
   position: relative;
-  left: 5.7rem;
-  top: 1rem;
-  width: 120px;
+  left: 5rem;
+  top: 1.5rem;
+  width: 90px;
+  height: 75px;
 }
 nav.navbar {
   position: absolute; /*always visible*/
@@ -20,6 +21,8 @@ nav.navbar  .nav-link.navbar-link {
   margin-left: 4rem;
   padding: 44px;
   font-size: 22px;
+  animation: zoomIn; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 1s; /* don't forget to set a duration! */
 }
 
 .me-auto {
