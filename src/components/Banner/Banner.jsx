@@ -4,6 +4,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Typewriter from 'typewriter-effect';
 import astronaut from '../../assets/img/astronaut.svg';
+import night from '../../assets/img/night.avif'
 
 export const Banner = () => {
   return (
@@ -26,9 +27,9 @@ export const Banner = () => {
                     loop: true,
                   }} />
               </div>
-              <div className='astronaut'>
+              {/* <div className='astronaut'>
                 <img src={astronaut} alt="astronaut" width={'250px'}/>
-              </div>
+              </div> */}
             </h1>
 
           </Col>

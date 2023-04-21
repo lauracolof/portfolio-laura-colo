@@ -1,10 +1,10 @@
 .banner {
-  margin-bottom: 15px;
-  height: 49rem;
-  padding: 170px;
-  background-image: url('../../assets/img/bg-night.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-image: url('../../assets/img/night.avif');
+  height: 690px;
+  width: 89%;
+  position: relative;
+  top: 5rem;
+  /* padding: 130px; */
   
 }
 
@@ -14,10 +14,12 @@
   padding: 20px 25px;
   background: linear-gradient(90.21deg, rgba(170, 54, 124, 0.5) -5.91%, rgba(74, 47, 189, 0.5) 111.58%);
   border: 1px solid rgba(255, 255, 255, 0.5);
-  font-size: 25px;
+  text-shadow: 10px solid black;
+  font-size: 35px;
   position: relative;
-  bottom: 1rem;
-  right: 4.55rem;
+  top: 6rem;
+  box-shadow: 3px 2px 3px 2px rgba(0, 0, 0, 0.452);
+  /* right: 3.5rem; */
   display: inline-block;
   border-radius: 10px;
   animation: flipInX; /* referring directly to the animation's @keyframe declaration */
@@ -26,13 +28,13 @@
 
 .banner h1 {
   position: relative;
-  top: 6rem;
-  right: 22.5rem;
+  top: 12rem;
+  /* right: 22.5rem; */
   font-size: 3rem;
   font-weight: 700;
   letter-spacing: 0.8px;
   line-height: 1;
-  text-shadow: 1px -2px 36px #000000;
+  text-shadow: 3px 0px 7px rgba(54, 54, 54, 0.8), -3px 0px 7px rgba(65, 64, 62, 0.8), 0px 4px 7px rgba(0, 0, 0, 0.8);
 }
 
 .banner p {
