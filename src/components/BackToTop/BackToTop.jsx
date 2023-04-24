@@ -33,7 +33,8 @@ function BackToTop () {
           fontSize: '50px',
           color: '#cd5cd1',
           borderColor: '#cd5cd1',
-          borderRadius: '10px'
+          borderRadius: '10px',
+          cursor: 'pointer'
           
         }}
         >

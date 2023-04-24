@@ -1,0 +1,31 @@
+.all-cards {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  width: 250px;
+}
+
+.title-projects {
+  font-size: 30px;
+  color: #cd5cd1;
+  position: relative;
+  text-align: start;
+  bottom: 6.5rem;
+  left: 8rem;
+}
+
+@media (max-width: 576px) {
+  .card-Grp {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: space-between;
+    width: 35rem; 
+    left: 16rem;
+    font-size: 20px;
+
+  }
+}

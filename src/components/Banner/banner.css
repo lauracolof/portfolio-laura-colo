@@ -1,10 +1,12 @@
 .banner {
-  background-image: url('../../assets/img/night.avif');
-  height: 690px;
-  width: 89%;
+  background-image: url('../../assets/img/bg-night.jpg');
+  width: 90rem;
+  height: 37rem;
   position: relative;
-  top: 5rem;
-  /* padding: 130px; */
+  /* top: 5rem; */
+  background-size: cover;
+  background-repeat: round;
+  //padding: 130px;
   
 }
 
@@ -58,3 +60,10 @@
   margin-top: 50px;
 }
 
+@media (max-width: 576px) {
+  .banner {
+    width: 52%;
+    height: 47rem;
+  }
+  
+}

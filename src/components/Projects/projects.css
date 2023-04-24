@@ -8,6 +8,7 @@
   right: 27.3rem;
   font-size: 30px;
   color: #cd5cd1;
+  bottom: 8rem;
 } 
 .each-proj {
   border: 8px inset #9d8feb;
@@ -22,6 +23,7 @@
   margin: 1rem;
   position: relative;
   left: 105px;
+  bottom: 8rem;
 
 }
 .card-project  {

@@ -6,7 +6,7 @@
   height: 75px;
 }
 nav.navbar {
-  position: absolute; /*always visible*/
+  position: relative; /*always visible*/
   width: 100%;
   height: 6rem;
 
@@ -18,10 +18,11 @@ nav.navbar  .nav-link.navbar-link {
   color: #fff !important;
   display: flex;
   position: relative;
-  margin-left: 4rem;
-  padding: 44px;
-  font-size: 22px;
-  animation: zoomIn; /* referring directly to the animation's @keyframe declaration */
+  left: 7rem;
+  top: 1.5rem;
+  padding: 21px;
+  font-size: 23px;
+  animation: zoomIn;
   animation-duration: 1s; /* don't forget to set a duration! */
 }
 
@@ -123,4 +124,52 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon::before{
   transform: rotate(45deg);
   background-color: #fff;
   height: 2px;
+}
+
+@media (max-width: 576px) {
+  .logoimg {
+    position: relative;
+    left: 8rem;
+    top: 1.5rem;
+    width: 90px;
+    height: 75px;
+  }
+  nav.navbar {
+
+      right: 5rem;
+      position: relative;
+      width: 54%;
+      /* left: -5rem; */
+      height: 80px;
+  }
+  .span.navbar-text {
+    display: flex;
+    position: relative;
+    left: 95rem;
+    bottom: 2.1rem;
+    width: 13rem;
+  }
+  .me-auto {
+    width: 139rem;
+    height: 6rem;
+    display: flex;
+    position: relative;
+    margin: 0px;
+    padding: 0;
+    top: -1rem;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  
+  nav.navbar  .nav-link.navbar-link {
+
+      color: #fff !important;
+      display: flex;
+      position: relative;
+      left: 10rem;
+      top: 1.5rem;
+      padding: 21px;
+      font-size: 23px;
+  }
+
 }

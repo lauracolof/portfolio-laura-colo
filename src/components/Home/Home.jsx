@@ -3,6 +3,7 @@ import { NavBar } from '../NavBar/NavBar.jsx';
 import { Banner } from '../Banner/Banner.jsx';
 import Projects from '../Projects/Projects.jsx';
 import { Skills } from '../Skills/Skills.jsx';
+// import ProjectCards from '../Cards/Cards.jsx'
 
 export function Home() {
   return (

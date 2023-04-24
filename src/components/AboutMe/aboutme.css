@@ -52,6 +52,32 @@
   position: relative;
   bottom: 14.8rem;
   left: 1rem;
+}
 
+@media (max-width: 576px) {
+  .about-me {
+    margin: -10rem 49rem 2rem 28rem;
+  }
 
+  .aboutme-bx {
+    position: relative;
+    bottom: 16.8rem;
+    left: 6rem;
+  } 
+
+  .profile {
+    border-radius: 60%;
+    position: relative ;
+    right: 52.3rem;
+    top: 30.5rem;
+  }
+
+  .aboutme-bx p {
+    font-size: 20px;
+    color: rgb(197, 194, 194);
+    text-align: justify;
+    position: relative;
+    left: -7.5rem;
+    width: 40rem;
+  }
 }
